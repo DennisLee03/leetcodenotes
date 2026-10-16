@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Obsidian (keep shared config, ignore per-user UI state)
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Claude Code: per-user local settings (shared commands in .claude/commands/ stay tracked)
+.claude/settings.local.json
+
+# Running solutions locally
+__pycache__/
+*.pyc
+.venv/
+venv/
+a.out
+*.o
+*.out
+*.exe
+*.class
+node_modules/
