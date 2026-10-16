@@ -8,6 +8,14 @@ Group Notes for LeetCode — an LLM-maintained knowledge base for our practice (
 | Wiki | `wiki/` — problems, patterns, concepts, members, insights | LLM |
 | Schema | `CLAUDE.md` — structure, formats, workflows | Humans and LLM together |
 
+## Members
+| Member | Notes folder |
+|---|---|
+| hehsun | [`notes/hehsun/`](notes/hehsun/) |
+| dennis | [`notes/dennis/`](notes/dennis/) |
+
+New member? Create `notes/<handle>/` — Claude creates the matching `wiki/members/<handle>.md` on first ingest.
+
 ## Workflow
 1. Copy `notes/_template.md` → `notes/<you>/<NNNN>-<slug>.md`, write your code and notes (any language). Re-solving later? Add an `## Attempt 2` section.
 2. In Claude Code, run `/ingest` — it finds new/changed notes and compiles them into `wiki/`.
