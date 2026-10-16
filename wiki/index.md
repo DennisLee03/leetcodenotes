@@ -7,16 +7,16 @@
 - [Overview](overview.md) — overall progress and observations
 
 ## Members
-_(none yet)_
+- [@hehsun](members/hehsun.md) — progress, strengths, review queue | 1 solved (1E), C++
 
 ## Patterns
-_(none yet)_
+- [Complement Lookup](patterns/complement-lookup.md) — one pass, check whether `target - x` has been seen in a hash map | 1 problem
 
 ## Concepts
-_(none yet)_
+- [Hash Map](concepts/hash-map.md) — O(1) average lookup; C++ `unordered_map` idioms and pitfalls | 1 problem
 
 ## Problems
-_(none yet)_
+- [0001. Two Sum](problems/0001-two-sum.md) — one-pass value→index hash map, look up the complement before inserting | Easy · complement-lookup · hehsun
 
 ## Insights
 _(none yet)_
