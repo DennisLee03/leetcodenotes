@@ -3,6 +3,7 @@
 
 # Editors / IDEs
 .vscode/
+.obsidian/
 .idea/
 *.swp
 *~
