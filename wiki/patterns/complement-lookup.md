@@ -25,7 +25,7 @@ for (int i = 0; i < n; i++) {
 - **Look up before inserting.** This stops an element from pairing with itself. Duplicates still work because the earlier copy is already in the map.
 - **What to store:** the index (to return positions), a count (to count pairs), or the earliest index (for the longest subarray).
 - **Prefix-sum variant:** the complement is `prefix - k` and the map holds prefix sums (e.g. 0560 Subarray Sum Equals K, not yet in the wiki). Seed the map with `{0: 1}` or `{0: -1}`.
-- **Sorted input:** use two pointers instead for O(1) extra space (0167 Two Sum II).
+- **Sorted input:** use [two pointers](two-pointers.md) instead for O(1) extra space (0167 Two Sum II).
 
 ## Problems in This Wiki
 | Problem | Difficulty | How it's used |
