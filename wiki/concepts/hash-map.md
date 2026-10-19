@@ -20,6 +20,7 @@ mp.count(key);                       // 0 or 1, existence check
 ## Variants and Details
 - **`mp[key]` inserts a default value if the key is missing.** Use `find` or `count` when you only want to check, so you don't add junk entries.
 - `unordered_map` has no ordering. Use `map` (red-black tree, O(log n)) when you need sorted keys or `lower_bound`.
+- Only need "seen or not", with no value per key? Use a [hash set](hash-set.md). That page also covers buckets, load factor, rehash, and the O(n) worst case, all of which apply to `unordered_map` as well.
 - Keep the map **local to the function**. A class-member map carries state between calls (see @hehsun's note on [0001](../problems/0001-two-sum.md)).
 
 ## Problems in This Wiki
