@@ -65,5 +65,5 @@ bool containsDuplicate(const vector<int>& nums); // (3) call by constant referen
 |Delete time|$O(log(n)) + rebalance$|same as search|
 
 * rehash:
-     * 當 $load\, factor$ = $\frac{\#elements}{\#buckets}$ 超過設定的數值時, 就需要弄出更多 bucket, 分配 elements 進去新的 buckets 當中, 這件事情就是 rehash
+     * 當 $load\, factor$ = $\frac{elements}{buckets}$ 超過設定的數值時, 就需要弄出更多 bucket, 分配 elements 進去新的 buckets 當中, 這件事情就是 rehash
      * `unordered_set` 底層實作是 hash table 所以 insert 可能會 rehash
