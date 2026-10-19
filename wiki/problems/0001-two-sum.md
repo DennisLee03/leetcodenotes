@@ -40,7 +40,8 @@ return {};
 - **State in a class member** (from @hehsun's own note): `mp` declared as a member of `Solution` keeps old entries if the same object is reused. Make it a local variable.
 
 ## Related Problems
-_(No other problems in this wiki yet. Variants to practice, LLM-suggested: 0167 Two Sum II (two pointers on sorted input), 0015 3Sum, 0560 Subarray Sum Equals K (complement lookup on prefix sums), 0219 Contains Duplicate II.)_
+- [0217 Contains Duplicate](0217-contains-duplicate.md): the same seen-values scan, where the complement is `x` itself, so a hash set is enough.
+- LLM-suggested variants to practice: 0167 Two Sum II (two pointers on sorted input), 0015 3Sum, 0560 Subarray Sum Equals K (complement lookup on prefix sums), 0219 Contains Duplicate II.
 
 ## Attempt History
 | Date | Member | Attempt | Result | Language | Note |
