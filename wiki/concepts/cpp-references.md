@@ -52,6 +52,7 @@ The "safety" isn't complete. A reference must never outlive the object it's boun
 | Problem | Difficulty | Use |
 |---------|------------|-----|
 | [0217 Contains Duplicate](../problems/0217-contains-duplicate.md) | Easy | read-only input, so `const vector<int>&` would fit; sorting the by-reference `nums` would mutate the caller's array |
+| [0242 Valid Anagram](../problems/0242-valid-anagram.md) | Easy | `string s, string t` are passed **by value**, so sorting them (Solution C) only touches copies |
 
 ## Common Mistakes by Members
 _(None recorded yet.)_

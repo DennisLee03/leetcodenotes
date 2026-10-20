@@ -50,6 +50,7 @@ return false;
 
 ## Related Problems
 - [0001 Two Sum](../problems/0001-two-sum.md): same "have I seen it?" scan, but it looks up `target - x` instead of `x` and needs a map to remember indices.
+- [0242 Valid Anagram](0242-valid-anagram.md): also hash-based, but it needs counts (a map or an array) where this problem needs membership. Its sort solution is safe because the strings are passed by value; here, sorting would change the caller's `nums`.
 - LLM-suggested variants to practice: 0219 Contains Duplicate II (seen-set inside a sliding window of size k), 0220 Contains Duplicate III (ordered `set` + `lower_bound`), 0128 Longest Consecutive Sequence (hash-set membership).
 
 ## Attempt History
