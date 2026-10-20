@@ -31,4 +31,20 @@ public:
 ```
 
 ### Notes
+* vector `erase()` 的效果
+    ```plaintext
+    {1, 2, 3, 4, 5, 6}
+           ^
+           it
 
+    -------erase(it)---------
+
+    {1, 2, _, 4, 5, 6}
+           ^
+           it(失效, iterator invalidation)
+
+    {1, 2, 4, 5, 6}
+           ^
+           it(回傳補進的這位仁兄的指標)
+    ```
+* 其他 STL 容器使用 iterator 操作元素的時候要注意 iterator invalidation 的問題
